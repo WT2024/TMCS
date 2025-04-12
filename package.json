@@ -1,0 +1,45 @@
+{
+  "name": "tmcs",
+  "version": "0.0.1",
+  "description": "TMCS(Tommy Minecraft Centre Server),TM(Tommy Minecraft)系列的中枢项目",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WT2024/TMCS.git"
+  },
+  "keywords": [
+    "TMCS",
+    "tmcs"
+  ],
+  "author": "Tommy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WT2024/TMCS/issues"
+  },
+  "homepage": "https://github.com/WT2024/TMCS#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "@types/koa": "^2.15.0",
+    "@types/koa-bodyparser": "^4.3.12",
+    "@types/koa-router": "^7.4.8",
+    "@types/koa-session": "^6.4.5",
+    "@types/typescript": "^0.4.29",
+    "@types/uuid": "^10.0.0",
+    "koa": "^2.16.1",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^13.0.1",
+    "koa-session": "^7.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "uuid": "^11.1.0"
+  },
+  "nodemonConfig": {
+    "ext": "ts",
+    "exec": "ts-node src/app.ts",
+    "watch": "src/"
+  }
+}
