@@ -1,8 +1,9 @@
 import Router from "koa-router";
-import { loginRouter } from "./login";
+import { userRouters } from "./user";
 
 export const router = new Router({prefix: "/api"});
-router.use(loginRouter.routes()).use(loginRouter.allowedMethods());
+
+router.use(userRouters.routes()).use(userRouters.allowedMethods());
 
 router.get("/", async (ctx) => {
     ctx.status = 200;

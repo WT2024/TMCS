@@ -1,11 +1,11 @@
-# TMCS
-TMCS(Tommy Minecraft Centre Server)，TM(Tommy Minecraft)系列的中枢项目
+# TCS
+TCS(Tommy Centre Server)，T(Tommy)系列的中枢项目
 
 # 快速开始开发
 1. 创建一个分支，并克隆到本地
-2. 运行以下命令来安装依赖
+2. 运行以下命令来初始化项目
     ```Powershell
-    npm install
+    .\init.ps1
     ```
 3. 运行以下命令来启动服务器  
     ```Powershell
